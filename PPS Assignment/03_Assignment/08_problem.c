@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int numberStars;
-    printf("Enter the number of stars you want: ");
+    printf("Enter the number you want to print: ");
     numberStars = 0;
     int i, j;
     scanf("%d", &i);
