@@ -8,7 +8,7 @@ int main(){
     i = i - 1;
     while(i >= numberStars){
         for(j = 0; j <= i; j = j + 1){
-            printf(" %d", j+1);
+            printf(" %d", j + 1);
         }
         printf("\n");
         i = i - 1;
