@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    printf("Enter how much stars do you want to print?: ");
+    printf("Enter the number you want to print?: ");
     int num_Pattern;
     scanf("%d", &num_Pattern);
     int i = 0;
