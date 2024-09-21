@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
     printf("Enter how much stars do you want to print?: ");
-    int a;
-    scanf("%d", &a);
+    int num_Pattern;
+    scanf("%d", &num_Pattern);
     int i = 0;
-    while(i <= a - 1){
+    while(i <= num_Pattern - 1){
         for(int j = 0; j <= i; j++){
             printf("%d ", j + 1);
         }
